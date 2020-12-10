@@ -1,0 +1,96 @@
+/* FULL PAGE LINEAR GRADIENT*/
+html{
+    background-image: linear-gradient(to top right, #B2DAFC 0%, #FFFFFF 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+}
+
+.navbar{
+    background:none;
+    position: absolute;
+    right:60%;
+    margin: auto;
+}
+#title{
+    color: red;
+    padding-left:30px;
+    padding-top:10px;
+    font-family: 'Andika New Basic', sans-serif; /*Google font used on the title*/
+}
+.dummy-text{
+    line-height: 1; /* I noticed the the interline in the filler text used here was not the default. Hence, I changed it to conform to the design */
+    font-size: small;                 
+}
+.form{
+    padding-top:10px;
+    position: relative;
+}
+.btn{
+    background-color: #2BB2A2;
+    color: white; 
+    position: relative; 
+    width:80%;
+    right: -10%;
+}
+.br{
+    border-radius: 1px;  /*This is to change the border of the form elements*/
+}
+/* HEXAGON CODE : This can also be created more easily using SVG however it is to be avoided as it has less browser support*/
+.hexagon-wrapper {
+    width: 295px;
+    height: 295px;
+    text-align: center; /*This is to center the hexagon class */
+    margin: 30px;
+    position: absolute;
+    display: inline-block;
+    right: 235px;
+    top:55px;
+  }
+  
+  .hexagon {
+    height: 100%;
+    width: 57.735%;
+    display: inline-block;
+    background-color: #2bb2a2;
+  }
+  
+  .hexagon:before {
+    position: absolute;
+    top: 0;
+    right: 21.1325%;
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    content: '';
+    transform: rotate(60deg);
+  }
+  
+  .hexagon:after {
+    position: absolute;
+    top: 0;
+    right: 21.1325%;
+    background-color: inherit;
+    height: inherit;
+    width: inherit;
+    content: '';
+    transform: rotate(-60deg); /*Rotation to obtain the Hexagon in the desired form*/
+  }
+  .box-1{
+    height: 265px;
+    width:550px;
+    background-color: black;
+    position: absolute;
+    top:100px;
+    right :500px;
+
+  }
+  .box-2{
+      height: 230px;
+      width:750px;
+      position: absolute;
+      background-color: white;
+      bottom: 30px;
+      right: 330px;
+
+  }

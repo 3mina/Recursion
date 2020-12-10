@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>B&B chemical Compounds</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Nerko+One&family=Noto+Sans&display=swap" rel="stylesheet">
+    <!-- embedded a google font-->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- FILE STRUCTURE-->
+    <!-- This mini-project contains the following files:
+            storytile-test
+            |___index.html /* Our default document */
+            |
+            |___css
+            |   |_style.css /* Our stylesheet containing the css to format the layout of our page*/
+            |
+            |___res
+                |_brand.png /* logo of the company to be included in the page*/
+    
+    For the colors I used an Online color picker on the provided image of the expeted result. This tool allow to extract the hex code
+    for any color present in the image. 
+            -->
+
+    <!-- Container or all of our elements-->
+    
+    <div class="container"> 
+        
+        <!-- Navbar containing Logo+title -->
+        <div class="nav-container">
+            <nav class="navbar navbar-expand-sm"> 
+              <a class="navbar-brand" href="#"> <img src="res/brand.png" style=" height: 70px;"></a>
+              <h2> Chemical <br/> Compounds</h2>
+            </nav>
+        </div>
+
+        <!-- Row containing the hexagon and the box overlapped-->
+        <div class="row ">
+            <div class="hexagon-wrapper">
+                <div class="hexagon"></div>
+            </div>
+            <div class="box-1">
+            </div>
+        </div>
+
+        <!-- Box containing general info-->
+        <div class="box-2">
+            <!-- Content is devided on three columns-->
+            <div class="d-flex justify-content-center align-items-center"> 
+                <div id="title" class="col-4">
+                    <h3>B&B</h3>
+                    <h3>Chemical</h3>    
+                    <h3>Compounds</h3>   
+                    <h3>Conference</h3>   
+                    <h3>2020</h3>    
+                </div>
+                <div class="col-4 ">
+                    <div class="row" >
+                        <p><b>Sign Up Now!</b></p>
+                        <p class="dummy-text"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br/><br/>
+                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row justify-content-center">
+                        <form>
+                            <div class="form-group">
+                            <!-- p-1 is used to adjust the padding set by the control-form class and rounded-0 for sharp edges as requested in the design-->
+                            <input type="text" class="form-control p-1 br" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                            <input type="email" class="form-control p-1" placeholder="Your Email"> 
+                            </div>
+                            <input class="btn rounded-0 p-1" type="submit" value="Get Your Ticket" > 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
